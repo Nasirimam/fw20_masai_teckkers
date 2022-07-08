@@ -1,0 +1,7 @@
+Team Name = fw20_masai_teckkers
+
+Team member 1 = Nasir Imam
+Team member 2 = Abhishek Kumar Amber
+Team member 3 = Amit Adhikary
+Team member 4 = Prafful Sadavarte
+Team member 5 = Ayush Srivastava
