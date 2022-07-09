@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Section</title>
+
+    <style>
+      #navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(18, 49, 88, 0.747);
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+        flex-wrap: wrap;
+        /* text-align: center; */
+      }
+      #logo {
+        padding-left: 25px;
+        cursor: pointer;
+      }
+      #menu > ul > li {
+        display: inline;
+        padding-right: 25px;
+        cursor: pointer;
+      }
+      li:hover{
+        color: rgb(125, 163, 123);
+      }
+      ul {
+        margin-top: 33px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo">
+        <h2>Rebook</h2>
+      </div>
+      <div id="menu">
+        <ul>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Login</li>
+          <li>SignUp</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
